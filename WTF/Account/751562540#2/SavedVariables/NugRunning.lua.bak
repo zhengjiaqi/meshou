@@ -1,0 +1,17 @@
+
+NRunDB_Global = {
+	["charspec"] = {
+	},
+}
+NugRunningConfigCustom = {
+	["DEATHKNIGHT"] = {
+	},
+	["WARLOCK"] = {
+	},
+	["ROGUE"] = {
+	},
+	["SHAMAN"] = {
+	},
+	["PALADIN"] = {
+	},
+}

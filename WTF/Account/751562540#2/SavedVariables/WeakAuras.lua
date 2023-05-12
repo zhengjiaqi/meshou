@@ -1,0 +1,341 @@
+
+WeakAurasSaved = {
+	["dynamicIconCache"] = {
+	},
+	["editor_tab_spaces"] = 4,
+	["displays"] = {
+		["Auto Leave Battleground"] = {
+			["outline"] = "OUTLINE",
+			["wagoID"] = "64BfsK1Kg",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText_format_p_time_dynamic_threshold"] = 60,
+			["customText"] = "function()\nreturn aura_env.config[\"delay\"]\nend",
+			["shadowYOffset"] = -1,
+			["anchorPoint"] = "CENTER",
+			["displayText_format_p_time_format"] = 0,
+			["customTextUpdate"] = "event",
+			["automaticWidth"] = "Auto",
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\bigkiss.ogg",
+					["do_custom"] = true,
+					["custom"] = "C_Timer.After(aura_env.config[\"delay\"], function() LeaveBattlefield() end)\n\n\n\n\n",
+					["do_sound"] = false,
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "GTFO",
+						["unit"] = "player",
+						["custom_hide"] = "timed",
+						["events"] = "UPDATE_BATTLEFIELD_STATUS",
+						["custom"] = "function(event)\n  if event == \"UPDATE_BATTLEFIELD_STATUS\" then\n    if GetBattlefieldWinner() then\n        return true\n    end\n  end\nend",
+						["subeventPrefix"] = "SPELL",
+						["names"] = {
+						},
+						["custom_type"] = "event",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 65,
+			["wordWrap"] = "WordWrap",
+			["desc"] = "Automatically leave battlegrounds when they end.\nMade for WOTLK Classic but should work on any game version.",
+			["font"] = "Friz Quadrata TT",
+			["version"] = 4,
+			["displayText_format_c_format"] = "none",
+			["load"] = {
+				["ingroup"] = {
+				},
+				["use_zoneIds"] = false,
+				["instance_type"] = {
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+						["party"] = true,
+						["pvp"] = true,
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["use_size"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["zoneIds"] = "1459",
+			},
+			["fontSize"] = 12,
+			["source"] = "import",
+			["displayText_format_n_format"] = "none",
+			["shadowXOffset"] = 1,
+			["selfPoint"] = "BOTTOM",
+			["displayText_format_p_time_legacy_floor"] = false,
+			["regionType"] = "text",
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+			},
+			["conditions"] = {
+			},
+			["url"] = "https://wago.io/64BfsK1Kg/4",
+			["displayText"] = "",
+			["displayText_format_p_time_precision"] = 1,
+			["config"] = {
+				["delay"] = 0.5,
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["authorOptions"] = {
+				{
+					["type"] = "number",
+					["useDesc"] = true,
+					["max"] = 100,
+					["step"] = 0.05,
+					["width"] = 1,
+					["min"] = 0,
+					["key"] = "delay",
+					["desc"] = "Delay before leaving battleground in seconds.",
+					["name"] = "Delay",
+					["default"] = 0.5,
+				}, -- [1]
+			},
+			["justify"] = "LEFT",
+			["tocversion"] = 30401,
+			["id"] = "Auto Leave Battleground",
+			["semver"] = "1.0.3",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["yOffset"] = 0,
+			["uid"] = "u5zGxM8ta)I",
+			["xOffset"] = 0,
+			["displayText_format_p_time_mod_rate"] = true,
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["fixedWidth"] = 200,
+			["information"] = {
+				["forceEvents"] = true,
+			},
+			["preferToUpdate"] = false,
+		},
+		["Auto Leave Battleground 2"] = {
+			["outline"] = "OUTLINE",
+			["wagoID"] = "64BfsK1Kg",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText_format_p_time_dynamic_threshold"] = 60,
+			["customText"] = "function()\nreturn aura_env.config[\"delay\"]\nend",
+			["shadowYOffset"] = -1,
+			["anchorPoint"] = "CENTER",
+			["displayText_format_p_time_format"] = 0,
+			["customTextUpdate"] = "event",
+			["automaticWidth"] = "Auto",
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\bigkiss.ogg",
+					["do_custom"] = true,
+					["custom"] = "C_Timer.After(aura_env.config[\"delay\"], function() LeaveBattlefield() end)\n\n\n\n\n",
+					["do_sound"] = false,
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "GTFO",
+						["unit"] = "player",
+						["custom_hide"] = "timed",
+						["events"] = "UPDATE_BATTLEFIELD_STATUS",
+						["custom"] = "function(event)\n  if event == \"UPDATE_BATTLEFIELD_STATUS\" then\n    if GetBattlefieldWinner() then\n        return true\n    end\n  end\nend",
+						["subeventPrefix"] = "SPELL",
+						["names"] = {
+						},
+						["custom_type"] = "event",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 65,
+			["wordWrap"] = "WordWrap",
+			["desc"] = "Automatically leave battlegrounds when they end.\nMade for WOTLK Classic but should work on any game version.",
+			["font"] = "Friz Quadrata TT",
+			["version"] = 4,
+			["displayText_format_c_format"] = "none",
+			["load"] = {
+				["ingroup"] = {
+				},
+				["use_zoneIds"] = false,
+				["instance_type"] = {
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+						["party"] = true,
+						["pvp"] = true,
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["use_size"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["zoneIds"] = "1459",
+			},
+			["fontSize"] = 12,
+			["source"] = "import",
+			["displayText_format_n_format"] = "none",
+			["shadowXOffset"] = 1,
+			["selfPoint"] = "BOTTOM",
+			["displayText_format_p_time_legacy_floor"] = false,
+			["regionType"] = "text",
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+			},
+			["conditions"] = {
+			},
+			["url"] = "https://wago.io/64BfsK1Kg/4",
+			["displayText"] = "",
+			["displayText_format_p_time_precision"] = 1,
+			["config"] = {
+				["delay"] = 0.5,
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["authorOptions"] = {
+				{
+					["type"] = "number",
+					["useDesc"] = true,
+					["max"] = 100,
+					["step"] = 0.05,
+					["width"] = 1,
+					["min"] = 0,
+					["key"] = "delay",
+					["desc"] = "Delay before leaving battleground in seconds.",
+					["name"] = "Delay",
+					["default"] = 0.5,
+				}, -- [1]
+			},
+			["justify"] = "LEFT",
+			["tocversion"] = 30401,
+			["id"] = "Auto Leave Battleground 2",
+			["semver"] = "1.0.3",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["yOffset"] = 0,
+			["uid"] = "z8A6NNA2BGK",
+			["xOffset"] = 0,
+			["displayText_format_p_time_mod_rate"] = true,
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["fixedWidth"] = 200,
+			["information"] = {
+				["forceEvents"] = true,
+			},
+			["preferToUpdate"] = false,
+		},
+	},
+	["lastArchiveClear"] = 1682605928,
+	["minimap"] = {
+		["hide"] = false,
+	},
+	["lastUpgrade"] = 1682605930,
+	["dbVersion"] = 65,
+	["login_squelch_time"] = 10,
+	["registered"] = {
+	},
+	["editor_font_size"] = 12,
+	["editor_theme"] = "Monokai",
+}

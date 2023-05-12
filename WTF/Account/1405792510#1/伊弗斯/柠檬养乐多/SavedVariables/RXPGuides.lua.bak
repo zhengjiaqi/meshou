@@ -1,0 +1,129 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+		nil, -- [1]
+		{
+		}, -- [2]
+	},
+	["currentStep"] = 2,
+	["currentGuideName"] = "71-73 北风苔原",
+	["stepSkip"] = {
+		true, -- [1]
+	},
+	["flightPaths"] = {
+	},
+	["currentGuideGroup"] = "RestedXP 部落 70-80",
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["柠檬养乐多 - 伊弗斯"] = "柠檬养乐多 - 伊弗斯",
+	},
+	["profiles"] = {
+		["柠檬养乐多 - 伊弗斯"] = {
+			["levels"] = {
+				{
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 11,
+							["day"] = 0,
+							["month"] = 5,
+							["weekday"] = 5,
+							["year"] = 2023,
+							["hour"] = 23,
+							["minute"] = 55,
+						},
+						["started"] = 0,
+					},
+					["quests"] = {
+					},
+				}, -- [1]
+				[70] = {
+					["groupExperience"] = 50274,
+					["deaths"] = 1,
+					["mobs"] = {
+						["奥格瑞玛"] = {
+							["xp"] = 2500,
+							["count"] = 2,
+						},
+						["奥特兰克山谷"] = {
+							["xp"] = 50274,
+							["count"] = 17,
+						},
+					},
+					["timestamp"] = {
+					},
+					["quests"] = {
+						["奥格瑞玛"] = {
+							[70396] = 1250,
+							[70734] = 1250,
+						},
+					},
+				},
+				[71] = {
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+					},
+					["timestamp"] = {
+					},
+					["quests"] = {
+					},
+				},
+			},
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["柠檬养乐多 - 伊弗斯"] = "柠檬养乐多 - 伊弗斯",
+	},
+	["profiles"] = {
+		["柠檬养乐多 - 伊弗斯"] = {
+			["players"] = {
+				["还是老狗"] = {
+					["timePlayed"] = 400.976999999999,
+					["class"] = "DRUID",
+					["xp"] = 44,
+				},
+				["狂暴專家"] = {
+					["level"] = 75,
+					["lastSeen"] = 79852.582,
+					["xpPercentage"] = 2,
+					["class"] = "WARRIOR",
+					["timePlayed"] = 0,
+					["isRxp"] = true,
+				},
+				["Rwesd"] = {
+					["timePlayed"] = 400.976999999999,
+					["class"] = "ROGUE",
+					["xp"] = 44,
+				},
+				["卡卡罗特奉仙"] = {
+					["timePlayed"] = 400.976999999999,
+					["class"] = "WARLOCK",
+					["xp"] = 44,
+				},
+				["巴尔泽布"] = {
+					["timePlayed"] = 400.976999999999,
+					["class"] = "PRIEST",
+					["xp"] = 44,
+				},
+			},
+		},
+	},
+}
+RXPCSettings = {
+	["profileKeys"] = {
+		["柠檬养乐多 - 伊弗斯"] = "柠檬养乐多 - 伊弗斯",
+	},
+	["profiles"] = {
+		["柠檬养乐多 - 伊弗斯"] = {
+			["hardcore"] = false,
+			["frameHeight"] = 125,
+		},
+	},
+}

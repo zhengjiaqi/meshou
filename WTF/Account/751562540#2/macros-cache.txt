@@ -1,0 +1,121 @@
+VER 3 000000000000001F "111" "INV_MISC_QUESTIONMARK"
+/target 暗魔
+/stopcasting
+/cast 驅散魔法
+END
+VER 3 0000000000000001 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] 驱毒术;  [@mouseover,exists,mod:ctrl] 净化术; [@mouseover,exists,mod:shift] 驱毒术
+END
+VER 3 0000000000000020 "RXPTargeting" "Ability_eyeoftheowl"
+//RestedXP 指南 狮心-北美刘嘉玲 汉化版 - current step has no configured targets
+END
+VER 3 0000000000000019 "亂碼" "INV_MISC_QUESTIONMARK"
+/console SET profanityFilter "0"
+END
+VER 3 0000000000000018 "停止攻擊" "132598"
+/stopattack
+END
+VER 3 0000000000000012 "冰霜震擊" "135849"
+#showtooltip
+/cast 冰霜震击
+/startattack
+END
+VER 3 000000000000001C "净化" "136075"
+/cleartarget 
+/targetenemy 
+/cast 净化术
+END
+VER 3 0000000000000016 "加速爆發" "134730"
+/use 加速药水
+/use 战斗之鼓
+END
+VER 3 0000000000000004 "同速" "132157"
+/tar player
+/targetlasttarget
+/startattack
+END
+VER 3 000000000000000A "地震術" "136026"
+#showtooltip
+/cast 地震术
+/startattack
+END
+VER 3 0000000000000008 "坐騎" "132242"
+/cast 迅捷红色驭风者
+/cast 阿曼尼战熊
+END
+VER 3 0000000000000014 "幽靈" "136040"
+/cleartarget
+/targetenemy
+/cast 灵魂剑雨
+/cast 灵魂枷锁
+/cast 灵魂之矛
+END
+VER 3 0000000000000002 "打斷" "132147"
+/stopcasting
+/cast [@focus,harm,nodead] 地震术(等级 1)
+/cast 地震术(等级 1)
+END
+VER 3 000000000000001D "打斷施法" "132222"
+/cast [@focus] 地震术(等级 1) 
+END
+VER 3 0000000000000017 "攻擊宏" "132269"
+/startattack
+END
+VER 3 000000000000001A "救命" "136043"
+/stopcasting
+/cast 自然迅捷
+/cast [@hbtarget] 治疗波
+END
+VER 3 000000000000001B "治疗自己" "136043"
+/stopcasting
+/cast [target=player] 次级治疗波
+END
+VER 3 000000000000000F "火舞" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [modifier:alt] 熔岩图腾; 火焰新星图腾
+END
+VER 3 000000000000000D "烈焰震擊" "135813"
+#showtooltip
+/cast 烈焰震击
+/startattack
+END
+VER 3 000000000000001E "焦點" "132092"
+/focus [@mouseover]
+END
+VER 3 0000000000000015 "爆發" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 血性狂怒
+/use 狂暴者的召唤
+/use 嗜血胸针
+/use 战斗之鼓
+END
+VER 3 0000000000000013 "盾舞" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [modifier:alt] 闪电之盾;水之护盾
+END
+VER 3 000000000000000B "紅" "136124"
+/use 极效治疗石
+/use 极效治疗药水
+/use 治疗药水注射器
+/use 超强治疗药水
+END
+VER 3 0000000000000010 "脚底光圈" "133566"
+/console findyourselfmode 1
+END
+VER 3 0000000000000009 "遠視" "132177"
+/console cameraDistanceMaxZoomFactor 4
+/console ffxDeath 0
+END
+VER 3 0000000000000007 "防暫離" "132311"
+/script T,F=T or 0,F or CreateFrame("frame")if X then X=nil print("OFF.")else print("ON.") X=function()local t=GetTime()if t-T>1 then StaticPopup1Button2:Click()T=t end end end F:SetScript("OnUpdate",X)
+END
+VER 3 000000000000000C "風暴打擊" "132314"
+#showtooltip
+/cast 风暴打击
+/startattack
+END
+VER 3 0000000000000003 "風舞" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=combat/15 风怒图腾,风之优雅图腾 
+END

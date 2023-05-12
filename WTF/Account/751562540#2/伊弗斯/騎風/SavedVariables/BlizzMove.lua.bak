@@ -1,0 +1,58 @@
+
+BlizzMoveDB = {
+	["QuestLogFrame"] = {
+	},
+	["RaidParentFrame"] = {
+	},
+	["AuctionFrame"] = {
+		["save"] = true,
+	},
+	["GameMenuFrame"] = {
+		["relativeTo"] = "UIParent",
+	},
+	["CharacterFrame"] = {
+		["relativeTo"] = "UIParent",
+	},
+	["MailFrame"] = {
+		["relativeTo"] = "UIParent",
+	},
+	["FriendsFrame"] = {
+	},
+	["AchievementFrame"] = {
+		["save"] = true,
+	},
+	["InterfaceOptionsFrame"] = {
+	},
+	["MerchantFrame"] = {
+	},
+	["GossipFrame"] = {
+	},
+	["DressUpFrame"] = {
+	},
+	["WorldMapFrame"] = {
+		["relativeTo"] = "UIParent",
+	},
+	["VideoOptionsFrame"] = {
+	},
+	["LootFrame"] = {
+	},
+	["GuildBankFrame"] = {
+		["save"] = true,
+	},
+	["SpellBookFrame"] = {
+	},
+	["BankFrame"] = {
+	},
+	["version"] = "201109013",
+	["StanceBarFrame"] = {
+	},
+	["QuestFrame"] = {
+	},
+	["TradeFrame"] = {
+	},
+	["CalendarFrame"] = {
+		["save"] = true,
+	},
+	["HelpFrame"] = {
+	},
+}

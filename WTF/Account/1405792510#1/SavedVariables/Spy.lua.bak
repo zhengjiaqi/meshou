@@ -1,0 +1,42 @@
+
+SpyDB = {
+	["kosData"] = {
+		["伊弗斯"] = {
+			["Horde"] = {
+				["柠檬养乐多"] = {
+				},
+			},
+		},
+	},
+	["removeKOSData"] = {
+		["伊弗斯"] = {
+			["Horde"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["柠檬养乐多 - 伊弗斯"] = "柠檬养乐多 - 伊弗斯",
+	},
+	["profiles"] = {
+		["柠檬养乐多 - 伊弗斯"] = {
+			["Colors"] = {
+				["Alert"] = {
+					["Stealth Text"] = {
+						["a"] = 1,
+					},
+					["Name Text"] = {
+						["a"] = 1,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["AppendUnitKoSCheck"] = true,
+		},
+	},
+}
