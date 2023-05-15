@@ -6,6 +6,13 @@ X: -8
 Y: -95
 W: 64
 H: 64
+Frame: MeetingHornDataBroker
+FrameLevel: 1
+Anchor: TOP
+X: -260
+Y: -19
+W: 171
+H: 43
 Frame: RXPFrame
 FrameLevel: 1
 Anchor: LEFT
@@ -15,9 +22,9 @@ W: 235
 H: 125
 Frame: InterfaceOptionsFrame
 FrameLevel: 1
-Anchor: CENTER
+Anchor: BOTTOM
 X: 81
-Y: -45
+Y: 9
 W: 858
 H: 660
 Frame: ColorPickerFrame
@@ -26,7 +33,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 240
+H: 200
 Frame: CombuctorFrame1
 FrameLevel: 1
 Anchor: RIGHT

@@ -22,14 +22,14 @@ WeakAurasSaved = {
 			["automaticWidth"] = "Auto",
 			["actions"] = {
 				["start"] = {
-					["custom"] = "C_Timer.After(aura_env.config[\"delay\"], function() LeaveBattlefield() end)\n\n\n\n\n",
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\bigkiss.ogg",
 					["do_custom"] = true,
+					["custom"] = "C_Timer.After(aura_env.config[\"delay\"], function() LeaveBattlefield() end)\n\n\n\n\n",
 					["do_sound"] = false,
 				},
-				["finish"] = {
-				},
 				["init"] = {
+				},
+				["finish"] = {
 				},
 			},
 			["triggers"] = {
@@ -39,16 +39,16 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["event"] = "GTFO",
 						["unit"] = "player",
-						["debuffType"] = "HELPFUL",
+						["custom_hide"] = "timed",
+						["events"] = "UPDATE_BATTLEFIELD_STATUS",
 						["custom"] = "function(event)\n  if event == \"UPDATE_BATTLEFIELD_STATUS\" then\n    if GetBattlefieldWinner() then\n        return true\n    end\n  end\nend",
-						["spellIds"] = {
-						},
-						["custom_type"] = "event",
+						["subeventPrefix"] = "SPELL",
 						["names"] = {
 						},
-						["subeventPrefix"] = "SPELL",
-						["events"] = "UPDATE_BATTLEFIELD_STATUS",
-						["custom_hide"] = "timed",
+						["custom_type"] = "event",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
 					},
@@ -72,41 +72,59 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["zoneIds"] = "1459",
-				["class"] = {
+				["size"] = {
 					["multi"] = {
+						["party"] = true,
+						["pvp"] = true,
 					},
 				},
-				["use_size"] = false,
 				["talent"] = {
 					["multi"] = {
 					},
 				},
-				["size"] = {
+				["use_size"] = false,
+				["class"] = {
 					["multi"] = {
-						["pvp"] = true,
-						["party"] = true,
 					},
 				},
+				["zoneIds"] = "1459",
 			},
 			["fontSize"] = 12,
 			["source"] = "import",
 			["displayText_format_n_format"] = "none",
 			["shadowXOffset"] = 1,
-			["preferToUpdate"] = false,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-			},
-			["regionType"] = "text",
-			["url"] = "https://wago.io/64BfsK1Kg/4",
-			["fixedWidth"] = 200,
+			["displayText_format_p_time_legacy_floor"] = false,
 			["displayText_format_p_time_mod_rate"] = true,
+			["regionType"] = "text",
 			["xOffset"] = 0,
+			["conditions"] = {
+			},
+			["displayText"] = "",
+			["selfPoint"] = "BOTTOM",
 			["displayText_format_p_time_precision"] = 1,
-			["uid"] = "u5zGxM8ta)I",
-			["yOffset"] = 0,
+			["config"] = {
+				["delay"] = 0.5,
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 			["authorOptions"] = {
 				{
 					["type"] = "number",
@@ -116,9 +134,9 @@ WeakAurasSaved = {
 					["width"] = 1,
 					["min"] = 0,
 					["key"] = "delay",
-					["default"] = 0.5,
-					["name"] = "Delay",
 					["desc"] = "Delay before leaving battleground in seconds.",
+					["name"] = "Delay",
+					["default"] = 0.5,
 				}, -- [1]
 			},
 			["justify"] = "LEFT",
@@ -127,43 +145,25 @@ WeakAurasSaved = {
 			["semver"] = "1.0.3",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["animation"] = {
-				["start"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
+			["yOffset"] = 0,
+			["uid"] = "u5zGxM8ta)I",
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
 			},
-			["config"] = {
-				["delay"] = 0.5,
-			},
-			["selfPoint"] = "BOTTOM",
-			["displayText"] = "",
+			["preferToUpdate"] = false,
 			["shadowColor"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 				1, -- [4]
 			},
-			["conditions"] = {
-			},
+			["fixedWidth"] = 200,
 			["information"] = {
 				["forceEvents"] = true,
 			},
-			["displayText_format_p_time_legacy_floor"] = false,
+			["url"] = "https://wago.io/64BfsK1Kg/4",
 		},
 		["Auto Leave Battleground 2"] = {
 			["outline"] = "OUTLINE",
@@ -183,14 +183,14 @@ WeakAurasSaved = {
 			["automaticWidth"] = "Auto",
 			["actions"] = {
 				["start"] = {
-					["custom"] = "C_Timer.After(aura_env.config[\"delay\"], function() LeaveBattlefield() end)\n\n\n\n\n",
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\bigkiss.ogg",
 					["do_custom"] = true,
+					["custom"] = "C_Timer.After(aura_env.config[\"delay\"], function() LeaveBattlefield() end)\n\n\n\n\n",
 					["do_sound"] = false,
 				},
-				["finish"] = {
-				},
 				["init"] = {
+				},
+				["finish"] = {
 				},
 			},
 			["triggers"] = {
@@ -200,16 +200,16 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["event"] = "GTFO",
 						["unit"] = "player",
-						["debuffType"] = "HELPFUL",
+						["custom_hide"] = "timed",
+						["events"] = "UPDATE_BATTLEFIELD_STATUS",
 						["custom"] = "function(event)\n  if event == \"UPDATE_BATTLEFIELD_STATUS\" then\n    if GetBattlefieldWinner() then\n        return true\n    end\n  end\nend",
-						["spellIds"] = {
-						},
-						["custom_type"] = "event",
+						["subeventPrefix"] = "SPELL",
 						["names"] = {
 						},
-						["subeventPrefix"] = "SPELL",
-						["events"] = "UPDATE_BATTLEFIELD_STATUS",
-						["custom_hide"] = "timed",
+						["custom_type"] = "event",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
 					},
@@ -233,41 +233,59 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["zoneIds"] = "1459",
-				["class"] = {
+				["size"] = {
 					["multi"] = {
+						["party"] = true,
+						["pvp"] = true,
 					},
 				},
-				["use_size"] = false,
 				["talent"] = {
 					["multi"] = {
 					},
 				},
-				["size"] = {
+				["use_size"] = false,
+				["class"] = {
 					["multi"] = {
-						["pvp"] = true,
-						["party"] = true,
 					},
 				},
+				["zoneIds"] = "1459",
 			},
 			["fontSize"] = 12,
 			["source"] = "import",
 			["displayText_format_n_format"] = "none",
 			["shadowXOffset"] = 1,
-			["preferToUpdate"] = false,
-			["subRegions"] = {
-				{
-					["type"] = "subbackground",
-				}, -- [1]
-			},
-			["regionType"] = "text",
-			["url"] = "https://wago.io/64BfsK1Kg/4",
-			["fixedWidth"] = 200,
+			["displayText_format_p_time_legacy_floor"] = false,
 			["displayText_format_p_time_mod_rate"] = true,
+			["regionType"] = "text",
 			["xOffset"] = 0,
+			["conditions"] = {
+			},
+			["displayText"] = "",
+			["selfPoint"] = "BOTTOM",
 			["displayText_format_p_time_precision"] = 1,
-			["uid"] = "z8A6NNA2BGK",
-			["yOffset"] = 0,
+			["config"] = {
+				["delay"] = 0.5,
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 			["authorOptions"] = {
 				{
 					["type"] = "number",
@@ -277,9 +295,9 @@ WeakAurasSaved = {
 					["width"] = 1,
 					["min"] = 0,
 					["key"] = "delay",
-					["default"] = 0.5,
-					["name"] = "Delay",
 					["desc"] = "Delay before leaving battleground in seconds.",
+					["name"] = "Delay",
+					["default"] = 0.5,
 				}, -- [1]
 			},
 			["justify"] = "LEFT",
@@ -288,43 +306,25 @@ WeakAurasSaved = {
 			["semver"] = "1.0.3",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["animation"] = {
-				["start"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
+			["yOffset"] = 0,
+			["uid"] = "z8A6NNA2BGK",
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
 			},
-			["config"] = {
-				["delay"] = 0.5,
-			},
-			["selfPoint"] = "BOTTOM",
-			["displayText"] = "",
+			["preferToUpdate"] = false,
 			["shadowColor"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 				1, -- [4]
 			},
-			["conditions"] = {
-			},
+			["fixedWidth"] = 200,
 			["information"] = {
 				["forceEvents"] = true,
 			},
-			["displayText_format_p_time_legacy_floor"] = false,
+			["url"] = "https://wago.io/64BfsK1Kg/4",
 		},
 	},
 	["lastArchiveClear"] = 1682605928,
@@ -333,9 +333,9 @@ WeakAurasSaved = {
 	},
 	["lastUpgrade"] = 1682605930,
 	["dbVersion"] = 65,
-	["editor_font_size"] = 12,
+	["login_squelch_time"] = 10,
 	["registered"] = {
 	},
-	["login_squelch_time"] = 10,
+	["editor_font_size"] = 12,
 	["editor_theme"] = "Monokai",
 }

@@ -1,4 +1,4 @@
-SET cameraDistanceMaxZoomFactor "4"
+SET cameraDistanceMaxZoomFactor "2"
 SET floatingCombatTextAuraFade "1"
 SET VoicePushToTalkKeybind "F2"
 SET lockActionBars "1"

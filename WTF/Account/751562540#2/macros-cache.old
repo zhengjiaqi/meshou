@@ -8,7 +8,7 @@ VER 3 0000000000000001 "Decursive" "INV_MISC_QUESTIONMARK"
 /cast [@mouseover,nomod,exists] 驱毒术;  [@mouseover,exists,mod:ctrl] 净化术; [@mouseover,exists,mod:shift] 驱毒术
 END
 VER 3 0000000000000020 "RXPTargeting" "Ability_eyeoftheowl"
-/targetexact Undertaker Mordo
+/targetexact Shadow Priest Sarvis
 /cleartarget [dead]
 END
 VER 3 0000000000000019 "亂碼" "INV_MISC_QUESTIONMARK"
@@ -103,6 +103,10 @@ VER 3 000000000000000B "紅" "136124"
 END
 VER 3 0000000000000010 "脚底光圈" "133566"
 /console findyourselfmode 1
+END
+VER 3 0000000000000021 "跟随" "132120"
+/targe 柠檬养乐多
+/follow
 END
 VER 3 0000000000000009 "遠視" "132177"
 /console cameraDistanceMaxZoomFactor 4

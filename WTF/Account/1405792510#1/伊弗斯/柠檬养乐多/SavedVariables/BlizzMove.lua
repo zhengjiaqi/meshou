@@ -10,8 +10,8 @@ BlizzMoveDB = {
 			["xOfs"] = 0,
 		},
 		["relativePoint"] = "CENTER",
-		["yOfs"] = 98.3354721069336,
-		["xOfs"] = -30.82693099975586,
+		["yOfs"] = 77.4382095336914,
+		["xOfs"] = -14.16065216064453,
 		["point"] = "CENTER",
 	},
 	["RaidParentFrame"] = {
@@ -29,9 +29,9 @@ BlizzMoveDB = {
 		["relativeTo"] = "UIParent",
 	},
 	["MailFrame"] = {
-	},
-	["InterfaceOptionsFrame"] = {
 		["relativeTo"] = "UIParent",
+	},
+	["HelpFrame"] = {
 	},
 	["FriendsFrame"] = {
 	},
@@ -48,8 +48,8 @@ BlizzMoveDB = {
 			["xOfs"] = 0,
 		},
 		["relativePoint"] = "TOP",
-		["yOfs"] = -16.90032577514648,
-		["xOfs"] = -77.27371978759766,
+		["yOfs"] = -47.64357757568359,
+		["xOfs"] = 38.22198486328125,
 		["point"] = "TOP",
 	},
 	["GossipFrame"] = {
@@ -66,7 +66,8 @@ BlizzMoveDB = {
 	["WorldMapFrame"] = {
 		["relativeTo"] = "UIParent",
 	},
-	["BankFrame"] = {
+	["GuildBankFrame"] = {
+		["save"] = true,
 	},
 	["PlayerTalentFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -92,8 +93,7 @@ BlizzMoveDB = {
 		["relativeTo"] = "UIParent",
 	},
 	["version"] = "201109013",
-	["GuildBankFrame"] = {
-		["save"] = true,
+	["BankFrame"] = {
 	},
 	["QuestFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -101,9 +101,10 @@ BlizzMoveDB = {
 	["TradeFrame"] = {
 	},
 	["CalendarFrame"] = {
-		["relativeTo"] = "UIParent",
 		["save"] = true,
+		["relativeTo"] = "UIParent",
 	},
-	["HelpFrame"] = {
+	["InterfaceOptionsFrame"] = {
+		["relativeTo"] = "UIParent",
 	},
 }

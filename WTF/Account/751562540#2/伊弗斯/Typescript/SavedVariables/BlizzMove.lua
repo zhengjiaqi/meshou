@@ -9,10 +9,10 @@ BlizzMoveDB = {
 			["yOfs"] = -104.0000076293945,
 			["xOfs"] = 0,
 		},
-		["relativePoint"] = "CENTER",
-		["yOfs"] = -39.10484313964844,
-		["xOfs"] = 8.357983589172363,
-		["point"] = "CENTER",
+		["relativePoint"] = "TOP",
+		["yOfs"] = -56.19748687744141,
+		["xOfs"] = -67.88893127441406,
+		["point"] = "TOP",
 	},
 	["TradeSkillFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -32,16 +32,32 @@ BlizzMoveDB = {
 	},
 	["ClassTrainerFrame"] = {
 		["relativeTo"] = "UIParent",
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -104.0000076293945,
+			["xOfs"] = 0,
+		},
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -19.45677947998047,
+		["xOfs"] = 11.85184955596924,
+		["point"] = "TOPLEFT",
 	},
 	["AuctionFrame"] = {
 		["save"] = true,
+		["relativeTo"] = "UIParent",
 	},
 	["CommunitiesFrame"] = {
 	},
 	["GameMenuFrame"] = {
 		["relativeTo"] = "UIParent",
 	},
+	["InterfaceOptionsFrame"] = {
+		["relativeTo"] = "UIParent",
+	},
 	["CharacterFrame"] = {
+		["relativeTo"] = "UIParent",
 		["default"] = {
 			["relativeTo"] = "UIParent",
 			["point"] = "TOPLEFT",
@@ -50,17 +66,17 @@ BlizzMoveDB = {
 			["xOfs"] = 400,
 		},
 		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -81.98121643066406,
-		["xOfs"] = 68.54911804199219,
+		["yOfs"] = -83.0617904663086,
+		["xOfs"] = 58.46907806396484,
 		["point"] = "TOPLEFT",
 	},
 	["MailFrame"] = {
 		["relativeTo"] = "UIParent",
 	},
-	["InterfaceOptionsFrame"] = {
+	["InspectFrame"] = {
 		["relativeTo"] = "UIParent",
 	},
-	["InspectFrame"] = {
+	["MacroFrame"] = {
 		["relativeTo"] = "UIParent",
 	},
 	["StanceBarFrame"] = {
@@ -70,6 +86,7 @@ BlizzMoveDB = {
 		["relativeTo"] = "UIParent",
 	},
 	["AchievementFrame"] = {
+		["relativeTo"] = "UIParent",
 		["save"] = true,
 	},
 	["GossipFrame"] = {
@@ -104,6 +121,7 @@ BlizzMoveDB = {
 		["point"] = "TOPLEFT",
 	},
 	["ItemSocketingFrame"] = {
+		["relativeTo"] = "UIParent",
 		["default"] = {
 			["relativeTo"] = "UIParent",
 			["point"] = "TOPLEFT",
@@ -121,19 +139,8 @@ BlizzMoveDB = {
 	["WorldMapFrame"] = {
 		["relativeTo"] = "UIParent",
 	},
-	["LootFrame"] = {
-		["relativeTo"] = "UIParent",
-		["default"] = {
-			["relativeTo"] = "UIParent",
-			["point"] = "TOPLEFT",
-			["relativePoint"] = "TOPLEFT",
-			["yOfs"] = -116.0000076293945,
-			["xOfs"] = 16,
-		},
-		["relativePoint"] = "TOP",
-		["yOfs"] = -141.2838745117188,
-		["xOfs"] = -263.246826171875,
-		["point"] = "TOP",
+	["GuildBankFrame"] = {
+		["save"] = true,
 	},
 	["PlayerTalentFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -149,8 +156,19 @@ BlizzMoveDB = {
 		["xOfs"] = -243.7531127929688,
 		["point"] = "CENTER",
 	},
-	["GuildBankFrame"] = {
-		["save"] = true,
+	["LootFrame"] = {
+		["relativeTo"] = "UIParent",
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.0000076293945,
+			["xOfs"] = 16,
+		},
+		["relativePoint"] = "TOP",
+		["yOfs"] = -141.2838745117188,
+		["xOfs"] = -263.246826171875,
+		["point"] = "TOP",
 	},
 	["SpellBookFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -161,15 +179,16 @@ BlizzMoveDB = {
 			["yOfs"] = -104.0000076293945,
 			["xOfs"] = 0,
 		},
-		["relativePoint"] = "LEFT",
-		["yOfs"] = 77.33331298828125,
-		["xOfs"] = 33.18517303466797,
-		["point"] = "LEFT",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -71.2098388671875,
+		["xOfs"] = 112.1973495483398,
+		["point"] = "TOPLEFT",
 	},
 	["BankFrame"] = {
 	},
 	["version"] = "201109013",
 	["VideoOptionsFrame"] = {
+		["relativeTo"] = "UIParent",
 		["default"] = {
 			["relativeTo"] = "UIParent",
 			["point"] = "CENTER",

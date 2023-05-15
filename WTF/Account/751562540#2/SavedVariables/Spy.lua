@@ -3,13 +3,15 @@ SpyDB = {
 	["kosData"] = {
 		["伊弗斯"] = {
 			["Horde"] = {
-				["Javascript"] = {
-				},
 				["Typescript"] = {
 				},
-				["騎風"] = {
-				},
 				["骐骐"] = {
+				},
+				["Javascript"] = {
+				},
+				["我在哪"] = {
+				},
+				["騎風"] = {
 				},
 			},
 		},
@@ -21,15 +23,15 @@ SpyDB = {
 		},
 	},
 	["profileKeys"] = {
-		["骐骐 - 伊弗斯"] = "骐骐 - 伊弗斯",
+		["騎風 - 伊弗斯"] = "騎風 - 伊弗斯",
 		["Typescript - 伊弗斯"] = "Typescript - 伊弗斯",
 		["Javascript - 伊弗斯"] = "Javascript - 伊弗斯",
-		["騎風 - 伊弗斯"] = "騎風 - 伊弗斯",
+		["骐骐 - 伊弗斯"] = "骐骐 - 伊弗斯",
+		["我在哪 - 伊弗斯"] = "我在哪 - 伊弗斯",
 	},
 	["profiles"] = {
-		["骐骐 - 伊弗斯"] = {
+		["騎風 - 伊弗斯"] = {
 			["AppendUnitNameCheck"] = true,
-			["MainWindowVis"] = false,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -79,8 +81,21 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
-		["騎風 - 伊弗斯"] = {
+		["骐骐 - 伊弗斯"] = {
 			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["我在哪 - 伊弗斯"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {

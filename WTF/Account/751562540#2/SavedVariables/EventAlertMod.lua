@@ -200,17 +200,31 @@ EA_Items = {
 		[1966] = {
 			["enable"] = true,
 		},
-		[5171] = {
+		[59628] = {
 			["enable"] = true,
 		},
-		[59628] = {
+		[57934] = {
 			["enable"] = true,
 		},
 		[58427] = {
 			["enable"] = true,
 		},
-		[57934] = {
+		[5171] = {
 			["enable"] = true,
+		},
+	},
+	["WARRIOR"] = {
+		[46924] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[23920] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[871] = {
+			["enable"] = true,
+			["self"] = true,
 		},
 	},
 	["PALADIN"] = {
@@ -254,6 +268,8 @@ EA_Items = {
 EA_AltItems = {
 	["DEATHKNIGHT"] = {
 	},
+	["WARRIOR"] = {
+	},
 	["WARLOCK"] = {
 	},
 	["ROGUE"] = {
@@ -272,6 +288,40 @@ EA_TarItems = {
 		[55095] = {
 			["enable"] = true,
 			["self"] = true,
+		},
+	},
+	["WARRIOR"] = {
+		[12975] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+		[1715] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[12323] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[772] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[5246] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+		[23920] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+		[46924] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+		[871] = {
+			["enable"] = true,
+			["self"] = false,
 		},
 	},
 	["WARLOCK"] = {
@@ -401,6 +451,71 @@ EA_ScdItems = {
 			["enable"] = true,
 		},
 	},
+	["WARRIOR"] = {
+		[34428] = {
+			["enable"] = true,
+		},
+		[6544] = {
+			["enable"] = true,
+		},
+		[5308] = {
+			["enable"] = true,
+		},
+		[2565] = {
+			["enable"] = true,
+		},
+		[6343] = {
+			["enable"] = true,
+		},
+		[6572] = {
+			["enable"] = true,
+		},
+		[12292] = {
+			["enable"] = true,
+		},
+		[23922] = {
+			["enable"] = true,
+		},
+		[46968] = {
+			["enable"] = true,
+		},
+		[12975] = {
+			["enable"] = true,
+		},
+		[23920] = {
+			["enable"] = true,
+		},
+		[46924] = {
+			["enable"] = true,
+		},
+		[12294] = {
+			["enable"] = true,
+		},
+		[1719] = {
+			["enable"] = true,
+		},
+		[100] = {
+			["enable"] = true,
+		},
+		[1160] = {
+			["enable"] = true,
+		},
+		[871] = {
+			["enable"] = true,
+		},
+		[18499] = {
+			["enable"] = true,
+		},
+		[23881] = {
+			["enable"] = true,
+		},
+		[845] = {
+			["enable"] = true,
+		},
+		[6552] = {
+			["enable"] = true,
+		},
+	},
 	["WARLOCK"] = {
 		[59672] = {
 			["enable"] = true,
@@ -478,6 +593,8 @@ EA_ScdItems = {
 }
 EA_GrpItems = {
 	["DEATHKNIGHT"] = {
+	},
+	["WARRIOR"] = {
 	},
 	["WARLOCK"] = {
 	},

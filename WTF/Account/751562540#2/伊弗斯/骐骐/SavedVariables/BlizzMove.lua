@@ -20,6 +20,7 @@ BlizzMoveDB = {
 		["relativeTo"] = "UIParent",
 	},
 	["AuctionFrame"] = {
+		["relativeTo"] = "UIParent",
 		["save"] = true,
 	},
 	["GameMenuFrame"] = {
@@ -29,14 +30,15 @@ BlizzMoveDB = {
 		["relativeTo"] = "UIParent",
 	},
 	["MailFrame"] = {
+		["relativeTo"] = "UIParent",
 	},
 	["FriendsFrame"] = {
+		["relativeTo"] = "UIParent",
 	},
 	["AchievementFrame"] = {
 		["save"] = true,
 	},
-	["InterfaceOptionsFrame"] = {
-		["relativeTo"] = "UIParent",
+	["HelpFrame"] = {
 	},
 	["MerchantFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -52,19 +54,19 @@ BlizzMoveDB = {
 	["VideoOptionsFrame"] = {
 		["relativeTo"] = "UIParent",
 	},
-	["LootFrame"] = {
-		["relativeTo"] = "UIParent",
-	},
 	["GuildBankFrame"] = {
 		["save"] = true,
+	},
+	["LootFrame"] = {
+		["relativeTo"] = "UIParent",
 	},
 	["SpellBookFrame"] = {
 		["relativeTo"] = "UIParent",
 	},
-	["BankFrame"] = {
+	["StanceBarFrame"] = {
 	},
 	["version"] = "201109013",
-	["StanceBarFrame"] = {
+	["BankFrame"] = {
 	},
 	["QuestFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -74,6 +76,7 @@ BlizzMoveDB = {
 	["CalendarFrame"] = {
 		["save"] = true,
 	},
-	["HelpFrame"] = {
+	["InterfaceOptionsFrame"] = {
+		["relativeTo"] = "UIParent",
 	},
 }

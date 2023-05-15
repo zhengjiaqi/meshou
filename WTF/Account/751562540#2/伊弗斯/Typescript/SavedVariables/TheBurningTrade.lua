@@ -31,6 +31,36 @@ TradeLog_TradesHistory = {
 		["when"] = "05-04 20:47:32",
 		["result"] = "cancelled",
 	}, -- [2]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 3,
+		["playerItems"] = {
+		},
+		["reason"] = "selfrunaway",
+		["targetItems"] = {
+		},
+		["player"] = "Typescript",
+		["where"] = "奥格瑞玛",
+		["who"] = "知否知乐",
+		["when"] = "05-13 11:25:09",
+		["result"] = "cancelled",
+	}, -- [3]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 4,
+		["playerItems"] = {
+		},
+		["reason"] = "selfrunaway",
+		["targetItems"] = {
+		},
+		["player"] = "Typescript",
+		["where"] = "奥格瑞玛",
+		["who"] = "五分实况",
+		["when"] = "05-13 11:25:17",
+		["result"] = "cancelled",
+	}, -- [4]
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil

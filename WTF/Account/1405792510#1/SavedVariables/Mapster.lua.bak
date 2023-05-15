@@ -11,6 +11,9 @@ MapsterDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["y"] = 0,
+			["x"] = 0,
+			["point"] = "TOPLEFT",
 		},
 	},
 }

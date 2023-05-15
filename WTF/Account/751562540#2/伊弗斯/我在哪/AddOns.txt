@@ -116,3 +116,6 @@ dct_spellAlert: enabled
 dct_options: enabled
 MeetingHorn: enabled
 HeyboxPlayerInfo: enabled
+Blizzard_CombatText: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

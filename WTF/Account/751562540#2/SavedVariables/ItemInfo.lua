@@ -3,6 +3,11 @@ ItemInfo_Config = {
 	["rname"] = {
 	},
 	["auctionPrice"] = {
+		["爆炸诱饵"] = {
+			50, -- [1]
+			55, -- [2]
+			2, -- [3]
+		},
 	},
 	["ShowUnitPrice"] = false,
 }

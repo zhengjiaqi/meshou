@@ -1,7 +1,6 @@
 SET cameraDistanceMaxZoomFactor "2"
 SET floatingCombatTextAuraFade "1"
 SET VoicePushToTalkKeybind "F2"
-SET lockActionBars "1"
 SET findYourselfMode "1"
 SET showTutorials "0"
 SET floatingCombatTextAuras "1"

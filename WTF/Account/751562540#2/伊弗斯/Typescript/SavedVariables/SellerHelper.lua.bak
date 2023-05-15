@@ -4,10 +4,10 @@ AutoRechargeSetting = {
 }
 AR_ItemInfo = {
 	["尸尘"] = {
-		["texture"] = 133849,
+		["addtime"] = 1683474166,
 		["hyperLink"] = "|cffffffff|Hitem:37201::::::::78:::::::::|h[尸尘]|h|r",
 		["stack"] = 1,
-		["addtime"] = 1683474166,
+		["texture"] = 133849,
 	},
 }
 SellerHelper_AutoSellList = {

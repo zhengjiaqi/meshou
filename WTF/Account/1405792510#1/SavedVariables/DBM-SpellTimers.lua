@@ -73,29 +73,6 @@ DBM_SpellTimers_Settings = {
 			["bartext"] = "%spell: %player",
 		}, -- [13]
 	},
-	["spells"] = {
-		{
-			["spell"] = 22700,
-			["cooldown"] = 600,
-			["bartext"] = "%spell: %player",
-		}, -- [1]
-		{
-			["spell"] = 44389,
-			["cooldown"] = 600,
-			["bartext"] = "%spell: %player",
-		}, -- [2]
-		{
-			["spell"] = 54711,
-			["cooldown"] = 300,
-			["bartext"] = "%spell: %player",
-		}, -- [3]
-		{
-			["spell"] = 67826,
-			["cooldown"] = 600,
-			["bartext"] = "%spell: %player",
-		}, -- [4]
-	},
-	["show_portal"] = true,
 	["portal_horde"] = {
 		{
 			["spell"] = 11417,
@@ -162,5 +139,28 @@ DBM_SpellTimers_Settings = {
 			["cooldown"] = 60,
 			["bartext"] = "%spell: %player",
 		}, -- [13]
+	},
+	["show_portal"] = true,
+	["spells"] = {
+		{
+			["spell"] = 22700,
+			["cooldown"] = 600,
+			["bartext"] = "%spell: %player",
+		}, -- [1]
+		{
+			["spell"] = 44389,
+			["cooldown"] = 600,
+			["bartext"] = "%spell: %player",
+		}, -- [2]
+		{
+			["spell"] = 54711,
+			["cooldown"] = 300,
+			["bartext"] = "%spell: %player",
+		}, -- [3]
+		{
+			["spell"] = 67826,
+			["cooldown"] = 600,
+			["bartext"] = "%spell: %player",
+		}, -- [4]
 	},
 }
